@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+    background: #E4E4E4;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: 2em;
+    color: #555555;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+}
+body {display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    margin-top: 40px;
+    background: linear-gradient(to top right, #1d5f77 0%, #21ffe1 100%);
+    min-height: calc(100vh - 48px);
+}
+p{
+    font-size: larger;
+    text-size-adjust: ;
+}
+div {
+    box-shadow: 0px 8px 20px 0px rgba(83, 43, 43, 0.15);
+} 
+
+    </style>
+    
+</head>
+
+<body><div>
+    <p>Timer Application</p>
+    <p id="timer_op">1</p>
+    <button id="pause_timer" class="inline">Pause</button>
+    <button id="resume_timer" class="inline">Start</button>
+    
+    <button id="reset_timer" class="inline">Reset</button>
+    <button id="restart_timer" class="inline">Restart</button> 
+    <script src="set_interval.js"></script>
+</div>
+</body>
+
+</html>
